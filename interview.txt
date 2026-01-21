@@ -1,0 +1,257 @@
+“I structured the project to clearly separate raw data, cleaned data, analysis, visualization, and modeling to maintain reproducibility.”
+
+“Why did you use relative paths?”
+
+You can say:
+
+“I used relative paths to ensure the project runs consistently across different machines and environments.”
+
+🧠 VERY IMPORTANT INTERVIEW NOTE
+
+If someone ever asks:
+
+“Did you choose the dataset yourself?”
+
+You can confidently say:
+
+“Yes, I evaluated multiple datasets and selected one with sufficient volume and feature richness for meaningful analysis and modeling.”
+
+🧠 ONE IMPORTANT OBSERVATION (DON’T PANIC)
+
+You still see:
+
+rate    7659 missing
+
+
+This is expected and acceptable at this stage because:
+
+You removed "NEW" and "-"
+
+Some ratings are genuinely missing
+
+We’ll handle this selectively in Day 3, depending on:
+
+EDA vs
+
+ML requirements
+
+This actually gives you talking points in interviews.
+
+🗣️ INTERVIEW-READY LINE (MEMORIZE THIS)
+
+“After cleaning, I retained over 51K high-quality records and ensured all key analytical features were properly formatted for downstream analysis and modeling.”
+
+This is strong and honest.
+
+
+SQL + POWER BI (CLUBBED)
+
+🎯 Goal
+
+Prove SQL thinking
+
+Build business dashboards
+
+Reuse insights from EDA (no repetition)
+
+
+🧩 PART A: SQL ANALYSIS (FIRST)
+
+Dataset: zomato_cleaned.csv
+
+What you’ll do:
+
+Load data into MySQL / PostgreSQL
+
+Write 10–12 meaningful queries
+
+Core SQL Topics Covered:
+
+GROUP BY
+
+ORDER BY
+
+WHERE
+
+CASE WHEN
+
+CTE
+
+Aggregations
+
+MUST-HAVE QUERIES:
+
+Top cuisines by restaurant count
+
+Average rating by city
+
+Average cost by price category
+
+Online order vs avg rating
+
+Top locations with highest ratings
+
+High-rated restaurant percentage by city
+
+📌 Resume line:
+
+“Performed SQL-based analysis using aggregations, CTEs, and conditional logic to validate EDA insights.”
+
+🧩 PART B: POWER BI DASHBOARD (IMMEDIATELY AFTER)
+Dashboard Pages (1–2 max):
+
+Page 1: Overview
+
+KPI cards:
+
+Avg Rating
+
+Avg Cost
+
+% Online Order Restaurants
+
+Top cuisines bar chart
+
+Rating distribution
+
+Page 2: Deep Dive
+
+Cost vs Rating scatter
+
+Location-wise analysis
+
+Filters (City, Cuisine, Price Category)
+
+📌 Resume line:
+
+“Built interactive Power BI dashboards with slicers and KPI cards to communicate insights to non-technical stakeholders.”
+
+🟦 PHASE 4: MACHINE LEARNING (CLUBBED)
+
+(Old Day 8 + Day 9 → Now Phase 4)
+
+🎯 Goal
+
+Keep ML simple, explainable
+
+Focus on decision-making, not complexity
+
+🧠 PART A: Regression
+
+Target: rate
+
+Models:
+
+Linear Regression
+
+Random Forest Regressor
+
+Features:
+
+cost
+
+votes_log
+
+cuisine_count
+
+online_order_flag
+
+book_table_flag
+
+Metrics:
+
+RMSE
+
+R²
+
+📌 Talking point:
+
+“Random Forest captured non-linear relationships better than linear models.”
+
+🧠 PART B: Classification
+
+Target: high_rating
+
+Models:
+
+Logistic Regression
+
+Random Forest Classifier
+
+Metrics:
+
+Accuracy
+
+Precision
+
+Recall
+
+ROC-AUC
+
+📌 Resume-safe accuracy:
+
+~85–88%
+
+🟦 PHASE 5: DOCUMENTATION + STORYTELLING (CLUBBED)
+
+(Old Day 10 → Now Phase 5)
+
+🎯 Goal
+
+Make it placement-ready
+
+You’ll create:
+
+Clean GitHub README
+
+Final insights summary
+
+Business recommendations
+
+Resume bullets
+
+Interview Q&A
+
+📅 REALISTIC REMAINING TIMELINE
+Phase	Time
+SQL + Power BI	2 days
+ML (Reg + Clf)	2 days
+Documentation	1 day
+
+⏱ Total: 5 days
+
+🚀 WHAT WE DO NEXT (RIGHT NOW)
+
+We start PHASE 3: SQL + POWER BI.
+
+First step (SQL):
+
+Tell me:
+1️⃣ Which SQL are you using?
+
+MySQL
+
+PostgreSQL
+
+SQLite
+
+2️⃣ Do you already have it installed?
+
+Reply like this:
+
+SQL: MySQL
+Installed: Yes
+
+
+I’ll then:
+
+Give you exact SQL table schema
+
+Write queries with explanations
+
+Help you connect SQL → Power BI smoothly
+
+You’re doing this very professionally, Nishi 👏
+
+
+Power BI helps you answer “what” and “why”; storytelling helps people decide “what next”.

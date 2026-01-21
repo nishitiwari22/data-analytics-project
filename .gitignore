@@ -11,3 +11,11 @@ venv/
 
 # OS
 .DS_Store
+
+# Data
+data/raw/
+.ipynb_checkpoints/
+__pycache__/
+.env
+venv/
+
